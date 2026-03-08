@@ -1,0 +1,22 @@
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+button[type="button"] {
+    background-color: #e2e2e2;
+    color: #07425e;
+}
+
+button[type="submit"] {
+    background-color: #07425e;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-1px)
+}

@@ -1,0 +1,34 @@
+.container {
+    background-color: #fff;
+    width: 800px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #07425e;
+    font-size: 1.7rem;
+    margin-bottom: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+form div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    color: #07425e;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
